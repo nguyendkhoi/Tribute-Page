@@ -1,0 +1,106 @@
+#image {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+#img-caption {
+    float: left;
+    margin-bottom: 15px;
+}
+
+#speech {
+    margin-top: 0;
+}
+
+#img-div,
+#nav ul li {
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+
+#nav ul {
+    display: flex;
+    padding: 0;
+}
+
+#nav ul li {
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.divider > p {
+    margin: 30px;
+}
+
+.left-text {
+    text-align: left;
+}
+
+html {
+    max-width: 700px;
+    margin: 3px auto;
+    border: 1px solid black;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.medium {
+    height: 2px;
+    background-color: black;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+h2,
+h3 {
+    margin-bottom: 2px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 0.9em;
+}
+
+.container > p {
+    margin: 0 auto 0 0;
+    text-align: flex-start;
+}
+
+.container > .time {
+    min-width: 100px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.honour > p {
+    margin: auto;
+    width: 70%;
+}
+
+#last {
+    margin-bottom: 20px;
+}
+
+.right-text {
+    text-align: right;
+}
